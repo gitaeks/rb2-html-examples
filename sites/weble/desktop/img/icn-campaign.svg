@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_campaign</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.900000036">
+        <g id="web" transform="translate(-80.000000, -1321.000000)">
+            <g id="푸터-아이콘" transform="translate(4.000000, 1288.000000)" fill="#B1B6BA">
+                <g id="campaign" transform="translate(80.000000, 37.000000)">
+                    <polygon id="Fill-1" points="0 9.8864 0 23.0254 13.138 23.0254 13.138 14.3774 11.757 14.3774 11.757 21.6794 1.445 21.6794 1.445 11.2934 7.432 11.2934 7.432 9.8864"></polygon>
+                    <path d="M8.861,13.1385 L21.999,13.1385 L21.999,0.0005 L8.861,0.0005 L8.861,13.1385 Z M10.24,11.7515 L20.612,11.7515 L20.612,1.3795 L10.24,1.3795 L10.24,11.7515 Z" id="Fill-2"></path>
+                </g>
+            </g>
+            <g id="cut" transform="translate(0.000000, 35.000000)"></g>
+        </g>
+    </g>
+</svg>

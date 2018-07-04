@@ -62,8 +62,6 @@ body {
   }
 }
 
-.navbar-brand
-
 .page-nav {
   -ms-flex: 0 0 23%;
   flex: 0 0 23%;
@@ -372,11 +370,102 @@ body {
  * 6 - Footer 풋터
  * ----------------------------------------------------------------------------
  */
-.rb-footer {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 100px;
-  border-top: 1px solid #e5e5e5;
+
+footer .quick-menu {
+  zoom: 1;
+  margin-top: 20px;
+  border-top: 3px solid #2b323c;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+footer .quick-menu .list-inline-item {
+  margin-right: 0
+}
+
+footer .quick-menu .list-inline-item a {
+  display: inline-block;
+  padding: 8px 0;
+  font-size: 13px;
+  color: #707070;
+}
+
+footer .quick-menu .list-inline-item:after {
+  margin: 0 10px;
+  content: "|";
+  color: silver;
+}
+footer .footer-copyright {
+  margin-top: 20px;
+}
+footer .footer-copyright .logo {
+  width: 150px;
+}
+footer .footer-copyright p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #888;
+  line-height: 20px;
+  word-break: break-all;
+}
+footer .footer-count {
+  margin-top: 20px;
+  text-align: right;
+}
+footer .footer-count ul {
+  border-left: 1px dotted #ddd;
+  display: inline-block;
+}
+footer .footer-count li {
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  border-right: 1px dotted #ddd;
+}
+footer .footer-count li strong {
+  display: block;
+  font-weight: 400;
+  color: #ff6c23;
+  font-size: 16px;
+}
+
+footer .footer-advertiser {
+  margin-top: 15px;
+  text-align: right;
+}
+footer .footer-advertiser p {
+  float: right;
+  font-size: 11px;
+  margin: 3px 10px 0 0;
+  padding: 0;
+  color: #747b86;
+}
+footer .footer-advertiser .btn {
+  float: right;
+  padding: 6px 30px;
+  box-shadow: none;
+  text-decoration: none;
+}
+footer .scroll-top {
+  padding: 0;
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  line-height: 1;
+  bottom: 60px;
+  right: 60px;
+  z-index: 100;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 100rem;
+  color: #777;
+  font-size: 11px;
+  text-align: center;
+  transition: .2s;
+  box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+footer .scroll-top img {
+  display: block;
+  margin: 0 auto 4px;
 }
 
 

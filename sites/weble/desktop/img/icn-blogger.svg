@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_blogger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.900000036">
+        <g id="web" transform="translate(-4.000000, -1321.000000)">
+            <g id="푸터-아이콘" transform="translate(4.000000, 1288.000000)" fill="#B1B6BA">
+                <path d="M9.18,42.4428 C9.174,39.4668 11.555,37.0468 14.5,37.0398 C17.444,37.0338 19.836,39.4438 19.843,42.4208 C19.849,45.3988 17.467,47.8178 14.522,47.8238 C11.578,47.8298 9.186,45.4208 9.18,42.4428 M17.319,48.1698 C19.424,47.1208 20.874,44.9438 20.874,42.4198 C20.874,38.8748 18.019,35.9998 14.497,35.9998 C10.974,35.9998 8.119,38.8748 8.119,42.4198 C8.119,44.9638 9.594,47.1558 11.725,48.1938 C6.723,49.4938 3,54.1668 3,59.5878 L4.038,59.5868 C4.306,52.7038 9.875,48.8388 14.512,48.8388 C19.329,48.8388 24.678,52.5558 24.826,59.5878 L26,59.5878 C26,53.8138 22.31,49.3878 17.319,48.1698"
+                      id="blogger"></path>
+            </g>
+            <g id="cut" transform="translate(0.000000, 35.000000)"></g>
+        </g>
+    </g>
+</svg>

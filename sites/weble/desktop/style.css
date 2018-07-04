@@ -55,6 +55,15 @@ body {
   padding-right: 10px;
  }
 
+.col-2,
+.col-3,
+.col-4,
+.col-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
 /* 컨테이터 폭수정  */
 @media (min-width: 1200px) {
   .container {
@@ -166,17 +175,17 @@ body {
 }
 
 .navbar .quick-menu .popup {
-    zoom: 1;
-    display: none;
-    position: absolute;
-    background: #fff;
-    border: 1px solid #d4d4d4;
-    border-top: 3px solid #ff6c23;
-    min-width: 108px;
-    max-width: 300px;
-    top: 60px;
-    left: 50%;
-    transform: translateX(-50%);
+  zoom: 1;
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  border-top: 3px solid #ff6c23;
+  min-width: 108px;
+  max-width: 300px;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .navbar .quick-menu>li:hover .popup {
     display: block;
@@ -261,6 +270,126 @@ body {
  * ----------------------------------------------------------------------------
  */
 
+.sub-category {
+  zoom: 1;
+  border-radius: 2px;
+  overflow: hidden;
+  width: 100%;
+  background: #39414d;
+}
+.sub-category .nav-link {
+  border-radius: 0;
+  padding: 10px 46px;
+  text-align: center;
+  color: #cbccce;
+  text-decoration: none;
+}
+.sub-category .nav-link.active {
+  background: #ff6c23;
+  color: #fff;
+}
+.sub-category .nav-link:hover {
+  background: #ef4f00;
+  color: #fff;
+}
+
+/* .campaign-card-list */
+.campaign-card-list h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.campaign-card-list h3 strong {
+  font-size: 22px;
+  font-weight: 400;
+  color: #404040;
+}
+
+.campaign-card-list .card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.campaign-card-list .card .badge-today-open {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 6px 10px;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+  z-index: 2;
+  border-radius: 0;
+  -webkit-opacity: .8;
+  -moz-opacity: .8;
+  opacity: .8;
+}
+
+.campaign-card-list .card .state-box>div {
+  position: absolute;
+  margin: 0;
+  right: 0;
+  bottom: 0;
+  width: 42px;
+  height: 42px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: -.5px;
+  text-align: center;
+  z-index: 1;
+}
+.campaign-card-list .card .state-box>div.type1 {
+  background: #ff5530;
+}
+.campaign-card-list .card .state-box>div div {
+  padding-top: 2px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.campaign-card-list .card .state-box>div.small {
+  font-size: 11px;
+}
+.campaign-card-list .card .state-box>div strong {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 2px;
+}
+
+.campaign-card-list .card .card-title {
+  color: #222;
+  font-size: 16px;
+  font-weight: 700;
+  height: 20px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+.campaign-card-list .card .card-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+  color: #666;
+  font-size: 13px;
+  font-weight: 200;
+  letter-spacing: -.3px;
+  height: 18px;
+}
+
+.campaign-card-list .card .card-body .state {
+  color: #888;
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 2px;
+}
+
+.campaign-card-list .card .card-body .state strong {
+  color: #ff6031;
+}
 
 /* 포토갤러리 */
 [data-plugin="photoswipe"] .figure {
@@ -499,7 +628,10 @@ footer .scroll-top img {
 
  /* button */
 .btn {
-  border-radius: 0
+  border-radius: 0;
+  padding: 0 15px;
+  font-size: 13px;
+  line-height: 28px;
 }
 .btn-light {
   color: #24292e;
@@ -533,6 +665,22 @@ footer .scroll-top img {
 .show>.btn-light.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2em rgba(3,102,214,0.3);
 }
+
+.btn-outline-primary {
+  color: #f05500;
+  border: 1px solid #f89f6e;
+  font-weight: 700;
+}
+.btn-outline-primary:hover {
+  background-color: #f05500;
+  color: #fff;
+  border: 1px solid #f89f6e;
+}
+.btn-outline-secondary {
+  color: #777;
+  border: 1px solid #ddd;
+}
+
 
 /* card */
 .card {

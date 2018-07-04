@@ -500,81 +500,85 @@ body {
  * ----------------------------------------------------------------------------
  */
 
-footer .quick-menu {
+footer.common-footer {
+  margin: 30px 0;
+}
+
+footer.common-footer .quick-menu {
   zoom: 1;
   margin-top: 20px;
   border-top: 3px solid #2b323c;
   border-bottom: 1px solid #e2e2e2;
 }
 
-footer .quick-menu .list-inline-item {
+footer.common-footer .quick-menu .list-inline-item {
   margin-right: 0
 }
 
-footer .quick-menu .list-inline-item a {
+footer.common-footer .quick-menu .list-inline-item a {
   display: inline-block;
   padding: 8px 0;
   font-size: 13px;
   color: #707070;
 }
 
-footer .quick-menu .list-inline-item:after {
+footer.common-footer .quick-menu .list-inline-item:after {
   margin: 0 10px;
   content: "|";
   color: silver;
 }
-footer .footer-copyright {
+footer.common-footer .footer-copyright {
   margin-top: 20px;
 }
-footer .footer-copyright .logo {
+footer.common-footer .footer-copyright .logo {
   width: 150px;
 }
-footer .footer-copyright p {
+footer.common-footer .footer-copyright p {
   margin-top: 10px;
   font-size: 12px;
   color: #888;
   line-height: 20px;
   word-break: break-all;
 }
-footer .footer-count {
+footer.common-footer .footer-count {
   margin-top: 20px;
   text-align: right;
 }
-footer .footer-count ul {
+footer.common-footer .footer-count ul {
   border-left: 1px dotted #ddd;
   display: inline-block;
 }
-footer .footer-count li {
+footer.common-footer .footer-count li {
   display: inline-block;
   text-align: center;
   width: 120px;
   border-right: 1px dotted #ddd;
 }
-footer .footer-count li strong {
+footer.common-footer .footer-count li strong {
   display: block;
   font-weight: 400;
   color: #ff6c23;
   font-size: 16px;
 }
 
-footer .footer-advertiser {
+footer.common-footer .footer-advertiser {
   margin-top: 15px;
   text-align: right;
 }
-footer .footer-advertiser p {
+footer.common-footer .footer-advertiser p {
   float: right;
   font-size: 11px;
   margin: 3px 10px 0 0;
   padding: 0;
   color: #747b86;
 }
-footer .footer-advertiser .btn {
+footer.common-footer .footer-advertiser .btn {
   float: right;
   padding: 6px 30px;
   box-shadow: none;
   text-decoration: none;
 }
-footer .scroll-top {
+footer.common-footer .scroll-top {
   padding: 0;
   position: fixed;
   width: 45px;
@@ -592,7 +596,7 @@ footer .scroll-top {
   transition: .2s;
   box-shadow: 0 2px 5px rgba(0,0,0,.1);
 }
-footer .scroll-top img {
+footer.common-footer .scroll-top img {
   display: block;
   margin: 0 auto 4px;
 }

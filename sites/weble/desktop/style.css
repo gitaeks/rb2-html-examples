@@ -633,9 +633,6 @@ footer.common-footer .scroll-top img {
  /* button */
 .btn {
   border-radius: 0;
-  padding: 0 15px;
-  font-size: 13px;
-  line-height: 28px;
 }
 .btn-light {
   color: #24292e;
